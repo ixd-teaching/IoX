@@ -1,9 +1,24 @@
-# IoX
-A pedagogical framework for thinking and programming interaction
+# IoX 
 
-*What:* Bringing together a conceptualisation of interaction with a framework for programming for interaction
+### Thinking and programming interaction
+*What:* IoX is a framework for helping interaction design students think and programming interaction. It brings together a conceptualisation of interaction with a structured programming model for how to code and design interactive experiments and prototypes in educational contexs. 
 
-*Why:* Allow for student experimentation with and prototyping new forms of action and interaction, effect and affect and get away from preconceptions and conventional modes of interaction / UI design. 
+*Background:* How this is comes out of teaching students interactivity.  
+
+*Motivation (why):*
+Existing alternatives and what they are lacking: 
+* What is already outhere: 
+* The need for a *structured* approach to programming interactivity rather than a general approach to programming. Interaction design students are not expected to be expert programmers, but should be able to
+* Existing frameworks for creative coding like p5.js are fine, but lack a focus specifically on programming interaction.
+* Existing UI frameworks like React, Svelte, Angular are to  geared towards designing graphical user interfaces, which is often to specific a use case for more a more open and experimental approach to interaction design.
+* Prototyping tools like Figma, that don't require programming skills, are similarly geared towards GUIs. 
+* Existing approaches are also typically not made to experiment with new approaches to interaction, but do rather rely on and implement conventional ones.
+* Finally, existing approaches are not grounded in an explicitly conception of interaction, but might rely implicitly on conventional ones. Interaction designers need a proper language for talking about interaction in creating and evaluating interaction designs. 
+
+*How:* How is this document weighted structured? An introduction to 'thinking interaction' and then a more elaborated descriptions and examples of how 
+
+*Prerequisits:* Bringing together a conceptualisation of interaction with a framework for programming for interaction
+ 
 
 *What it is not:* Not meant to build 
 
