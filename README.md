@@ -1,4 +1,4 @@
-# IoX 
+# IxO 
 
 ### Thinking and programming interaction
 *What:* IoX is a framework for helping interaction design students think and programming interaction. It brings together a conceptualisation of interaction with a structured programming model for how to code and design interactive experiments and prototypes in educational contexs. 
