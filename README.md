@@ -9,14 +9,13 @@ _Background:_ How this is comes out of teaching students interactivity.
 _Motivation (why):_
 Existing alternatives and what they are lacking:
 
-- What is already outhere:
 - The need for a _structured_ approach to programming interactivity rather than a general approach to programming. Interaction design students are not expected to be expert programmers, but should be able to
 - Existing frameworks for creative coding like p5.js are fine, but lack a focus specifically on programming interaction.
 - Existing UI frameworks like React, Svelte, Angular are to geared towards designing graphical user interfaces, which is often to specific a use case for more a more open and experimental approach to interaction design.
 - Prototyping tools like Figma, that don't require programming skills, are similarly geared towards GUIs.
 - Existing approaches are also typically not made to experiment with new approaches to interaction, but do rather rely on and implement conventional ones.
 - Existing approaches are not grounded in an explicitly conception of interaction, but might rely implicitly on conventional ones. Interaction designers need a proper language for talking about interaction in creating and evaluating interaction designs.
-- Finally, it is important that we are separating our conception of interaction _as_ experience from interaction _as_ a technical implementation. We should not describe interactive experiences in terms suitable to computer programming implementation and vice versa. The former are _phenomenological_ descriptions, while the latter are technical and it is a category mistake to mix the two languages. Thus an interaction design programming model is there to _realise_ a particular interactive experience, not to make sense of it.   
+- Finally, it is important that we are separating our conception of interaction _as_ experience from interaction _as_ a technical implementation. We should not describe interactive experiences in terms suitable to computer programming implementation and vice versa. The former are _phenomenological_ descriptions, while the latter are technical and it is a category mistake to mix the two languages. Thus an interaction design programming model is there to _realise_ a particular interactive experience, not to make it intelligible.
 
 _How:_ How is this document weighted structured? An introduction to 'thinking interaction' and then a more elaborated descriptions and examples of how
 
