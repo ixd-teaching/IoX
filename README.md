@@ -1,5 +1,5 @@
 # IoX
-Thinking and programming interaction for students
+A pedagogical framework for thinking and programming interaction
 
 *What:* Bringing together a conceptualisation of interaction with a framework for programming for interaction
 
