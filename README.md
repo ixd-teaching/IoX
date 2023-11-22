@@ -45,9 +45,16 @@ Programmatically, streams as the basic model and building block of transforming 
 
 ### A simple transformation of input to output
 
-Output as a function of input (I → O)
+Output as a function of input (I → O) over time
 
+### Architecture without global state: The different components of a stream from input to output and their specific responsibilities
+_Input:_
 
+_Pipeline:_
+
+_Stream:_
+
+_Output:_
 
 ### More than one input
 
@@ -71,6 +78,7 @@ The the binary input of a mouse click or the press of a button as we worked with
 ### Output as a function of input and self-generating state
 
 ## What is input?
+
 
 What sorts of input should our system be able to receive (how should it be receptive)? This might both a hardware and software question. We might need certain hardware to be a able to receive certain input, but it is also often the case that we need to set up programmatically what input to listen to.
 
