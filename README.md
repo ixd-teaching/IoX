@@ -2,7 +2,7 @@
 
 ### Thinking and programming interaction
 
-_What:_ IxO is a framework for helping interaction design students think and programming interaction. It brings together a conceptualisation of interaction with a structured programming model for how to code and design interactive experiments and prototypes in educational contexs.
+_What:_ IxO is a framework for helping interaction design students think and programme interaction. It brings together a conceptualisation of interaction with a structured programming model for coding and designing interactive experiments and prototypes in educational contexs.
 
 _Background:_ How this is comes out of teaching students interactivity.
 
@@ -10,18 +10,17 @@ _Motivation (why):_
 Existing alternatives and what they are lacking:
 
 - The need for a _structured_ approach to programming interactivity rather than a general approach to programming. Interaction design students are not expected to be expert programmers, but should be able to
-- Existing frameworks for creative coding like p5.js are fine, but lack a focus specifically on programming interaction.
+- Existing frameworks for creative coding serve a purpose p5.js, but lack a focus specifically on programming interaction.
 - Existing UI frameworks like React, Svelte, Angular are to geared towards designing graphical user interfaces, which is often to specific a use case for more a more open and experimental approach to interaction design.
 - Prototyping tools like Figma, that don't require programming skills, are similarly geared towards GUIs.
 - Existing approaches are also typically not made to experiment with new approaches to interaction, but do rather rely on and implement conventional ones.
-- Existing approaches are not grounded in an explicitly conception of interaction, but might rely implicitly on conventional ones. Interaction designers need a proper language for talking about interaction in creating and evaluating interaction designs.
-- Finally, it is important that we are separating our conception of interaction _as_ experience from interaction _as_ a technical implementation. We should not describe interactive experiences in terms suitable to computer programming implementation and vice versa. The former are _phenomenological_ descriptions, while the latter are technical and it is a category mistake to mix the two languages. Thus an interaction design programming model is there to _realise_ a particular interactive experience, not to make it intelligible.
-
+- Existing approaches are not grounded in an explicit conception of interaction, but might rely implicitly on conventional ones. Interaction designers need a proper language for talking about interaction in creating and evaluating interaction designs.
+- Finally, it is important that we are separating our conception of interaction _as_ experience from interaction _as_ a technical implementation. We should not describe interactive experiences in terms suitable to computer programming implementation and vice versa. The former are _phenomenological_ descriptions, while the latter are technical and we should not mix the two languages because they describe different things. Thus an interaction design programming model is there to _realise_ a particular interactive experience, not to make it intelligible.
 _How:_ How is this document weighted structured? An introduction to 'thinking interaction' and then a more elaborated descriptions and examples of how
 
 _Prerequisits:_ Bringing together a conceptualisation of interaction with a framework for programming for interaction
 
-_What it is not:_ Not meant to build
+_What it is not:_ Not meant to build production ready applications. 
 
 ## Conceptualising interaction and programming interaction designing a (technical) object and the challenges of connecting the two
 
@@ -33,15 +32,33 @@ From the experiential perspective it is even problematic to talk about 'interact
 
 When thinking about how to program interaction we can think certain conceptualisations and programming architecture. In essence, programming interaction is about receiving an input and generating an output. The generated output is usually dependent on the input. When input and output are continuous an interactional arc is established. Another way of saying it is that the output is a function of the input.
 
-## Programming interaction: IxO
+## Programming interaction: IxO 
+
+### Output as a function of input over time
+Programmatically, streams as the basic model and building block of transforming input to output over time. 
+
+### The design process of the program 
+[after having come up with the concept]
+- stating the requirements of input and output. What is it that we want the program to pick up on -- input, combination of input, patterns in input over time. 
+
+
 
 ### A simple transformation of input to output
 
 Output as a function of input (I → O)
 
+
+
 ### More than one input
 
-Output as a function of multiple input (I<sub>0</sub>, I<sub>1</sub>, I<sub>2..n</sub> → O)
+Output as a function of multiple inputs (I<sub>0</sub>, I<sub>1</sub>, I<sub>2..n</sub> → O)
+
+### Identify patterns in the temporal ordering of events
+How to identify patterns in the temporal ordering of events. This means to be able to know what should come first, second, third, etc as well as identifying events that happen with a particular pacing, that is a particular rhythm. How to do that? How to both describe and prescribe a particular ordering. 
+
+I should look at the operators concat() and timeInterval () and switchMap()
+
+The the binary input of a mouse click or the press of a button as we worked with in module 1 is is a use case where identifying patterns in the temporal ordering is relevant.   
 
 ### A sense of time: Past and present input to output
 
