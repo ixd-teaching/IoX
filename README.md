@@ -1,8 +1,7 @@
 # IxO
 
 ### Thinking and programming interaction
-
-_What:_ IxO is a framework for helping interaction design students think and programme interaction. It brings together a conceptualisation of interaction with a structured programming model for coding and designing interactive experiments and prototypes in educational contexs.
+_What:_ IxO is a framework for helping interaction design students think and programme interaction. It brings together a conceptualisation of interaction with a structured programming model for coding and designing interactive experiments and prototypes in the browser.
 
 _Background:_ How this is comes out of teaching students interactivity.
 
@@ -24,9 +23,18 @@ _What it is not:_ Not meant to build production ready applications.
 
 ## Conceptualising interaction and programming interaction designing a (technical) object and the challenges of connecting the two
 
+### Creating greater nuance (finer distinction) and greater expressivitity
+Greater nuance and expressivity starts with how we can impress ourselves on the system / what the system can picking up on 
+
+### Symbolic gestures/commands/requests and continuous embodied actions as input
+A symbolic gesture is binary. It is either performed or not performed and it has a closed defined meaning as symbolic. Continued embodied action as input can produce richer input where _the manner in which_, ie, how the input was performed is significant and carries information.      
+
 ### Tool, object, atmosphere, agent
 
 From the experiential perspective it is even problematic to talk about 'interaction' -- often what we are designing is 'action'
+
+### The 'how' of an interaction and not just the 'that'
+There is a design opening in exploring the how of an interaction -- the how of 'dragging', for example. That can be understood in adding more nuance to the _way_ in which dragging is carried out thereby create a richer interaction, and it can be understood  _aesthetically_ as a particularly sensory experience (cf. Lenz et al, 2013). 
 
 ## Conceptualisation and programming architecture
 
@@ -66,7 +74,7 @@ Output as a function of multiple inputs (I<sub>0</sub>, I<sub>1</sub>, I<sub>2..
 
 How to identify patterns in the temporal ordering of events. This means to be able to pick up on the timing of events or define a particular timing/pace/rhythm events should happen in to constitute a new event.How to do that? How to both describe and prescribe a particular temporal ordering.
 
-I should look at the operators concat() and timeInterval () and switchMap()
+I should look at the operators concat() and timeInterval () and switchMap() and not least timeout()!
 
 The the binary input of a mouse click or the press of a button as we worked with in module 1 is is a use case where identifying patterns in the temporal ordering is relevant.
 
@@ -81,7 +89,7 @@ What we would it look like if we were to design a DSL for a prescribing the timi
       nextBefore: 500 / ms
     },
     {
-      inputss: doubleClicks
+      inputs: doubleClicks
       howMany: 2
       nextBefore: 1000 / ms
     },
