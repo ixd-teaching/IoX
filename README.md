@@ -26,7 +26,7 @@ _What it is not:_ Not meant to build production ready applications.
 ### Creating greater nuance (finer distinction) and greater expressivitity
 Greater nuance and expressivity starts with how we can impress ourselves on the system / what the system can picking up on 
 
-### Symbolic gestures/commands/requests and continuous embodied actions as input
+### Signs in the form of gestures/commands/requests vs continuous embodied actions as input
 A symbolic gesture is binary. It is either performed or not performed and it has a closed defined meaning as symbolic. Continued embodied action as input can produce richer input where _the manner in which_, ie, how the input was performed is significant and carries information.      
 
 ### Tool, object, atmosphere, agent
@@ -81,25 +81,13 @@ The the binary input of a mouse click or the press of a button as we worked with
 What we would it look like if we were to design a DSL for a prescribing the timing of events declaratively?
 
 ```javascript
-{
+
   inputOrder: [
-    {
-      inputs: singleClicks
-      howMany: 1
-      nextBefore: 500 / ms
-    },
-    {
-      inputs: doubleClicks
-      howMany: 2
-      nextBefore: 1000 / ms
-    },
-    {
-      inputs: tripleClicks
-      howMany: 1
-    }
+    {stream: singleClicks, howMany: 1, nextWithin: 500},
+    {stream: doubleClicks, howMany: 2, nextWithin: 1000},
+    {stream: tripleClicks, howMany: 1}
   ]
-  repeat: false
-}
+
 ```
 
 ### Strategy for working with complex inputs
